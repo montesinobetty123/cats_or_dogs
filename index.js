@@ -10,7 +10,7 @@ function toggleVoteContainer(){
 
 function increaselikes(element){
   var likes = element.innerText;
-  likes = pareInt(likes);
+  likes = parseInt(likes);
   likes += 1;
   element.innerText = likes;
 }
